@@ -189,6 +189,34 @@ class MainApp extends StatelessWidget {
                 ],
               ),
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: Column(
+                    children: [
+                      Image.asset(
+                        'assets/images/product_1.jpg',
+                        height: 200,
+                        width: 200,
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 5.0),
+                Expanded(
+                  child: Column(
+                    children: [
+                      Image.asset(
+                        'assets/images/product_2.jpg',
+                        height: 200,
+                        width: 200,
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
