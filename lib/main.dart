@@ -200,6 +200,7 @@ class MainApp extends StatelessWidget {
                         height: 200,
                         width: 200,
                       ),
+                      Text('TUF GAMING')
                     ],
                   ),
                 ),
@@ -212,6 +213,7 @@ class MainApp extends StatelessWidget {
                         height: 200,
                         width: 200,
                       ),
+                      Text('MSI')
                     ],
                   ),
                 ),
